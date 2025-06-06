@@ -17,6 +17,7 @@
 
 #>
 function Edit-HostsFile {
+    [Alias('ehf')]
     [CmdletBinding()]
 
     # Define the standard path to the Hosts file on Windows.

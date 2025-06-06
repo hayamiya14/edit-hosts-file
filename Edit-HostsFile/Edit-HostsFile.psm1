@@ -19,6 +19,7 @@
 function Edit-HostsFile {
     [Alias('ehf')]
     [CmdletBinding()]
+    param()
 
     # Define the standard path to the Hosts file on Windows.
     $hostFilePath = 'C:\Windows\System32\drivers\etc\hosts'

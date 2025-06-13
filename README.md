@@ -6,7 +6,7 @@ A script for easily editing the hosts file in Notepad on Windows.
 
 ## Installation
 
-Clone this repository into the `$PSScriptRoot` directory.
+Clone this repository into the `$env:PSModulePath` directory.
 
 ## Usage
 
